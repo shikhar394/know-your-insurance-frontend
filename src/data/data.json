@@ -1,6 +1,6 @@
 {
     "project_title": "Know Your Insurance",
-    "project_description": "This is an experiment in using AI to make all insurance documents readable. Ask a question and AI'll answer it in real-time.",
+    "project_description": "This is an experiment in using AI to make all insurance policies readable. Ask a question and AI will answer it in real-time.",
     "questions": [
         "What is the deductible for my emergency visits?",
         "How much is my copay for a specialist?",

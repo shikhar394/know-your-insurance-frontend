@@ -1,22 +1,27 @@
+body {
+  font-family: Times New Roman, sans-serif;
+  font-size: 16px;
+}
+
 .app {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%; /* Set the height to occupy the full viewport height */
 }
 
 .card {
   text-align: center;
   border-radius: 8px;
   padding: 16px;
-  width: 400px; /* Increase the width to your desired value */
-  max-width: 100%; /* Ensure the card doesn't exceed the viewport width */
+  width: 400px;
+  max-width: 100%;
 }
 
 .question_answer {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;
@@ -27,9 +32,10 @@
 }
 
 .card-image {
-  width: 200px;
+  width: 300px;
   height: auto;
   margin: 0 auto;
+  shadows: 0 0 0 2px #007bff;
 }
 
 .card-text {
@@ -40,6 +46,8 @@
   width: 100%;
   padding: 8px;
   margin-bottom: 8px;
+  font-family: Times New Roman, sans-serif; /* Set consistent font family */
+  font-size: 16px; /* Set consistent font size */
 }
 
 .buttons {
@@ -57,10 +65,11 @@
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
+  font-family: Times New Roman, sans-serif; /* Set consistent font family */
 }
 
 .btn:hover {
-  background-color: #A9A9A9;
+  background-color: #a9a9a9;
 }
 
 .btn:focus {

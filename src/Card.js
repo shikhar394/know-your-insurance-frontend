@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import art from './data/art.png';
 import data from './data/data.json'
 
 function Card() {
     return (
         <div className="card">
         <img
-            src={logo}
+            src={art}
             alt="Card"
             className="card-image"
         />
