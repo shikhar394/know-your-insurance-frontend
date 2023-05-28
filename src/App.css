@@ -41,3 +41,29 @@
   padding: 8px;
   margin-bottom: 8px;
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.btn {
+  padding: 12px 24px;
+  margin: 0 8px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #A9A9A9;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
